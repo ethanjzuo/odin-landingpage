@@ -1,10 +1,14 @@
 .header-container {
     display: flex;
     flex: 1 1 auto;
-    align-items: center;
-    background-color: #031836;
-    padding: 50px;
+    background-color: #011634;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: -30px;
     gap: 20px;
+    font-family: sans-serif;
+    height: auto;
 }
 
 .logo {
@@ -18,9 +22,23 @@
 .nav-1, .nav-2,  .nav-3{
     color: white;
     font-size: 18px;
-    padding-top: -20px;
-    display:flex;
+    display: flex;
     flex-grow: 0.05;
 }
 
+.overview-section {
+  background: #011634;
+  color: white;
+  padding: 50px;
+}
 
+.bio-container{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.heading-container{
+    font-family: sans-serif;
+    font-size: 35px;
+}
