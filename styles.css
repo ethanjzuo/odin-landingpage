@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #031836;
     padding: 50px;
+    gap: 20px;
 }
 
 .logo {
@@ -11,11 +12,15 @@
     height: auto;
     margin-right: auto; 
     margin-left: 0;   
+    padding-top: -20px;
 }
 
 .nav-1, .nav-2,  .nav-3{
     color: white;
     font-size: 18px;
     padding-top: -20px;
-    
+    display:flex;
+    flex-grow: 0.05;
 }
+
+
