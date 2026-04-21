@@ -1,6 +1,6 @@
 .header-container {
     display: flex;
-    background-color: #011634;
+    background-color: #1f2937;
     padding: 0px 33px 0px 33px; /* top, right, bottom, left */
     gap: 20px;
     font-family: sans-serif;
@@ -27,7 +27,7 @@
     font-size: 18px;
     line-height: 1.8;
     padding: 20px 20px 20px 0px; 
-    max-width: 900px;
+    max-width: 850px;
 }
 
 .heading-container {
@@ -72,6 +72,7 @@ body {
 }
 
 #states {
+    margin-top: -50px;
     width: 250px;  
     height: auto; 
 }
@@ -124,4 +125,42 @@ main {
     font-weight: bold;         
     margin-top: 10px;
     font-size: 24px;
+}
+
+.action {
+    display: flex;
+    display: inline-block;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin-right: auto;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn {
+    margin-top: -10;
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    padding-bottom: 0px;           
+}
+
+#btn {
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
 }
